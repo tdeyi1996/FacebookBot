@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CliSecure Version="5.3.2.3" Time="11/12/2012 4:44:21 AM">
+  <Module N="FacebookBot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <Type N="&lt;Module&gt;" />
+  <Type N="FacebookBot.My.MyApplication">
+    <Method N="Void Main(String[] Args)" />
+    <Method N="Void .ctor()" />
+    <Method N="Void OnCreateMainForm()" />
+  </Type>
+  <Type N="FacebookBot.My.MyComputer">
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="FacebookBot.My.MyProject">
+    <Method N="Void .cctor()" />
+  </Type>
+  <Type N="FacebookBot.My.MyProject+MyForms" ON="FacebookBot.My.MyProject+oRM=">
+    <Property N="FRMAuthApp" ON="qBM=">
+      <Getter N="FacebookBot.FRMAuthApp get_FRMAuthApp()" ON="qRM=" />
+      <Setter N="Void set_FRMAuthApp(FacebookBot.FRMAuthApp Value)" ON="qhM=" />
+    </Property>
+    <Property N="FRMMain" ON="rxM=">
+      <Getter N="FacebookBot.FRMMain get_FRMMain()" ON="sBM=" />
+      <Setter N="Void set_FRMMain(FacebookBot.FRMMain Value)" ON="sRM=" />
+    </Property>
+    <Method N="!0 Create__Instance__(T Instance)" ON="sxM=" />
+    <Method N="Void Dispose__Instance__(!0&amp; instance)" ON="tRM=" />
+    <Method N="Void .ctor()" />
+    <Method N="Boolean Equals(Object o)" />
+    <Method N="Int32 GetHashCode()" />
+    <Method N="System.Type GetType()" ON="txM=" />
+    <Method N="String ToString()" />
+    <Field N="m_FRMAuthApp" ON="ohM=" />
+    <Field N="m_FRMMain" ON="oxM=" />
+    <Field N="m_FormBeingCreated" ON="pBM=" />
+  </Type>
+  <Type N="FacebookBot.My.MyProject+MyWebServices" ON="FacebookBot.My.MyProject+uBM=">
+    <Method N="Boolean Equals(Object o)" />
+    <Method N="Int32 GetHashCode()" />
+    <Method N="System.Type GetType()" ON="txM=" />
+    <Method N="String ToString()" />
+    <Method N="!0 Create__Instance__(T instance)" ON="sxM=" />
+    <Method N="Void Dispose__Instance__(!0&amp; instance)" ON="tRM=" />
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="FacebookBot.My.MyProject+ThreadSafeObjectProvider`1" ON="FacebookBot.My.MyProject+uxM=">
+    <Property N="GetInstance" ON="vRM=">
+      <Getter N="!0 get_GetInstance()" ON="vhM=" />
+    </Property>
+    <Method N="Void .ctor()" />
+  </Type>
+  <Type N="FacebookBot.FRMAuthApp" ON="wBM=.vxM=">
+    <Property N="WBAuthApp" ON="xhM=">
+      <Getter N="System.Windows.Forms.WebBrowser get_WBAuthApp()" ON="xxM=" />
+      <Setter N="Void set_WBAuthApp(System.Windows.Forms.WebBrowser WithEventsValue)" ON="yBM=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void Dispose(Boolean disposing)" />
+    <Method N="Void InitializeComponent()" ON="yhM=" />
+    <Method N="Void WBAuthApp_DocumentCompleted(Object sender, System.Windows.Forms.WebBrowserDocumentCompletedEventArgs e)" ON="yxM=" />
+    <Field N="components" ON="wRM=" />
+    <Field N="_WBAuthApp" ON="whM=" />
+  </Type>
+  <Type N="FacebookBot.FRMMain" ON="wBM=.zhM=">
+    <Property N="btnAuthorizeApp" ON="3xM=">
+      <Getter N="System.Windows.Forms.Button get_btnAuthorizeApp()" ON="4BM=" />
+      <Setter N="Void set_btnAuthorizeApp(System.Windows.Forms.Button WithEventsValue)" ON="4RM=" />
+    </Property>
+    <Property N="btnLikes" ON="5hM=">
+      <Getter N="System.Windows.Forms.Button get_btnLikes()" ON="5xM=" />
+      <Setter N="Void set_btnLikes(System.Windows.Forms.Button WithEventsValue)" ON="6BM=" />
+    </Property>
+    <Property N="lbUserAccessToken" ON="7RM=">
+      <Getter N="System.Windows.Forms.Label get_lbUserAccessToken()" ON="7hM=" />
+      <Setter N="Void set_lbUserAccessToken(System.Windows.Forms.Label WithEventsValue)" ON="7xM=" />
+    </Property>
+    <Property N="tbUserAccessToken" ON="9BM=">
+      <Getter N="System.Windows.Forms.TextBox get_tbUserAccessToken()" ON="9RM=" />
+      <Setter N="Void set_tbUserAccessToken(System.Windows.Forms.TextBox WithEventsValue)" ON="9hM=" />
+    </Property>
+    <Property N="btnSaveUserAccessToken" ON="/xM=">
+      <Getter N="System.Windows.Forms.Button get_btnSaveUserAccessToken()" ON="ABQ=" />
+      <Setter N="Void set_btnSaveUserAccessToken(System.Windows.Forms.Button WithEventsValue)" ON="ARQ=" />
+    </Property>
+    <Property N="tbObjectID" ON="BhQ=">
+      <Getter N="System.Windows.Forms.TextBox get_tbObjectID()" ON="BxQ=" />
+      <Setter N="Void set_tbObjectID(System.Windows.Forms.TextBox WithEventsValue)" ON="CBQ=" />
+    </Property>
+    <Property N="lbObjectID" ON="DRQ=">
+      <Getter N="System.Windows.Forms.Label get_lbObjectID()" ON="DhQ=" />
+      <Setter N="Void set_lbObjectID(System.Windows.Forms.Label WithEventsValue)" ON="DxQ=" />
+    </Property>
+    <Property N="btnClearCookies" ON="FBQ=">
+      <Getter N="System.Windows.Forms.Button get_btnClearCookies()" ON="FRQ=" />
+      <Setter N="Void set_btnClearCookies(System.Windows.Forms.Button WithEventsValue)" ON="FhQ=" />
+    </Property>
+    <Property N="Label1" ON="GxQ=">
+      <Getter N="System.Windows.Forms.Label get_Label1()" ON="HBQ=" />
+      <Setter N="Void set_Label1(System.Windows.Forms.Label WithEventsValue)" ON="HRQ=" />
+    </Property>
+    <Property N="TMRGetUpdatedLikes" ON="IhQ=">
+      <Getter N="System.Windows.Forms.Timer get_TMRGetUpdatedLikes()" ON="IxQ=" />
+      <Setter N="Void set_TMRGetUpdatedLikes(System.Windows.Forms.Timer WithEventsValue)" ON="JBQ=" />
+    </Property>
+    <Property N="lbGetPossibleLikes" ON="KRQ=">
+      <Getter N="System.Windows.Forms.Label get_lbGetPossibleLikes()" ON="KhQ=" />
+      <Setter N="Void set_lbGetPossibleLikes(System.Windows.Forms.Label WithEventsValue)" ON="KxQ=" />
+    </Property>
+    <Method N="Void .ctor()" />
+    <Method N="Void Dispose(Boolean disposing)" />
+    <Method N="Void InitializeComponent()" ON="yhM=" />
+    <Method N="Void HTTPWrite(String HTTPMethod, String ObjectID, String AccessToken)" ON="LRQ=" />
+    <Method N="Void DownloadAccessTokens()" ON="MRQ=" />
+    <Method N="Void btnAuthorizeApp_Click(Object sender, System.EventArgs e)" ON="MhQ=" />
+    <Method N="Void btnClearCookies_Click(Object sender, System.EventArgs e)" ON="NRQ=" />
+    <Method N="Void btnSaveUserAccessToken_Click(Object sender, System.EventArgs e)" ON="OBQ=" />
+    <Method N="Void btnLikes_Click(Object sender, System.EventArgs e)" ON="OxQ=" />
+    <Method N="Void FRMMain_FormClosing(Object sender, System.Windows.Forms.FormClosingEventArgs e)" ON="PhQ=" />
+    <Method N="Void FRMMain_Load(Object sender, System.EventArgs e)" ON="QRQ=" />
+    <Method N="Void TMRGetUpdatedLikes_Tick(Object sender, System.EventArgs e)" ON="RBQ=" />
+    <Field N="components" ON="wRM=" />
+    <Field N="_btnAuthorizeApp" ON="zxM=" />
+    <Field N="_btnLikes" ON="0BM=" />
+    <Field N="_lbUserAccessToken" ON="0RM=" />
+    <Field N="_tbUserAccessToken" ON="0hM=" />
+    <Field N="_btnSaveUserAccessToken" ON="0xM=" />
+    <Field N="_tbObjectID" ON="1BM=" />
+    <Field N="_lbObjectID" ON="1RM=" />
+    <Field N="_btnClearCookies" ON="1hM=" />
+    <Field N="_Label1" ON="1xM=" />
+    <Field N="_TMRGetUpdatedLikes" ON="2BM=" />
+    <Field N="_lbGetPossibleLikes" ON="2RM=" />
+    <Field N="Get_Access_Token_URL" ON="2hM=" />
+    <Field N="User_Access_Token" ON="2xM=" />
+  </Type>
+  <Type N="FacebookBot.My.Resources.Resources" ON="SBQ=.RxQ=">
+    <Property N="ResourceManager" ON="TBQ=">
+      <Getter N="System.Resources.ResourceManager get_ResourceManager()" ON="TRQ=" />
+    </Property>
+    <Property N="Culture" ON="URQ=">
+      <Getter N="System.Globalization.CultureInfo get_Culture()" ON="UhQ=" />
+      <Setter N="Void set_Culture(System.Globalization.CultureInfo Value)" ON="UxQ=" />
+    </Property>
+    <Field N="resourceMan" ON="SRQ=" />
+    <Field N="resourceCulture" ON="ShQ=" />
+  </Type>
+  <Type N="FacebookBot.My.MySettings">
+    <Method N="Void .cctor()" />
+    <Method N="Void .ctor()" />
+    <Method N="Void AutoSaveSettings(Object sender, System.EventArgs e)" />
+  </Type>
+  <Type N="FacebookBot.My.MySettingsProperty" />
+</Module>
+</CliSecure>
